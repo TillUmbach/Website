@@ -1,0 +1,411 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: dimgray;
+}
+
+img {
+  image-rendering:optimizeQuality;
+}
+
+a:link, a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+#header {
+  width: 100%;
+  height: 190px;
+  display: block;
+}
+
+#innerHeader{
+  width: 890px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+
+#name {
+display: table;
+float: left;
+}
+
+#name h1{
+  color:rgb(255, 255, 255);
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 62px;
+  padding-top: 80px;
+}
+
+
+#Languages {
+  float: right;
+  height: 100%;
+  }  
+  
+#Languages a{
+  height: 100%;
+  float: left;
+  display: table;
+  padding: 0px 10px;
+  color: #dddddd;
+}
+  
+#Languages a:last-child{
+  padding-right: 30px;
+}
+  
+
+#Languages a:hover de{
+  color: cyan;
+}
+#Languages a:hover en{
+  color: magenta;
+}
+
+#navigation {
+float: right;
+}  
+
+#navigation a{
+  float: left;
+  display: table;
+  padding-left: 27px;
+  color: rgb(255, 255, 255);
+}
+
+#navigation a:last-child{
+  padding-right: 0;
+}
+
+#navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: auto;
+  color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  text-decoration: none; 
+}
+
+#navigation a:hover li{
+  color: white;
+}
+
+#main {
+  width: 100%;
+  background: dimgray; 
+}
+
+#innerMain {
+   margin: auto;
+  max-width: 900px;
+  color: #dddddd;
+}
+
+#Forschung {
+  margin-left: 0px;
+  text-align: center;
+  padding-top: 290px;
+  padding-bottom: 224px;
+  width: 100%
+}
+
+#logo img {
+  display: table;
+  position: absolute;
+  max-width:200px;
+  padding-right: 10px;
+  padding-bottom: 80px;
+}
+
+#Musik {
+  display:flex;
+  float:inline-start;
+  width: 100%   !important;
+  height: 100%  !important;
+  padding-top: 240px;
+  padding-bottom: 170px;
+}
+
+
+
+#Musiktext {
+  position: relative;
+  padding-top: 180px;
+  font-size: 21px;
+  text-align: justify;
+  hyphens: auto; 
+  padding-right: 60px;
+}
+
+#WeitereVideos {
+  padding-top: 1px; 
+}
+
+#Musik span{
+  Color:  #dddddd;
+  padding-top: 12px;
+  padding-right: 19px;
+  padding-left: 19px;
+  padding-bottom: 12px;
+  background-color: #e100ff;
+  border-radius: 25px;
+  white-space:nowrap;
+  text-align: center;
+}
+
+
+#Ende {
+  display: block; 
+}
+
+#Inspirierendes {
+  padding-top: 130px;
+  padding-bottom: 330px;
+  text-align: center;
+  
+}  
+
+#listelinks a li{
+  display:flex;
+  position:static;
+  padding-left: 110px;
+  vertical-align: middle;
+  height: 100%;
+  color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+#listerechts a li{
+  padding-left: 80px;
+  display:flex;
+  position:static;
+  vertical-align: middle;
+  height: 100%;
+  color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#listelinks a:hover li blue{
+  color: cyan;
+}
+
+#listelinks a:hover li yellow{
+  color: yellow;
+}
+
+#listelinks a:hover li red{
+  color: magenta;
+}
+
+
+#listerechts a:hover li blue{
+  color: cyan;
+}
+
+#listerechts a:hover li yellow{
+  color: yellow;
+}
+
+#listerechts a:hover li red{
+  color: magenta;
+}
+
+
+#Kontakt {
+  display: block;
+  padding-top: 125px;
+  padding-bottom: 100px;
+}
+
+#Kontakt_text{  
+  font-size: 20px;
+  vertical-align: middle;
+  color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#Kontakt_Ueberschrift{
+  padding-top: 210px;
+  padding-left: 145px;
+  text-align: left;
+  color: #dddddd;
+}
+
+#Institutionen {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  width: 100%;
+  text-align: center;
+  transition: .5s ease;
+  padding-top: 50px;
+
+}
+
+#svg {
+  position: relative;
+  width: 100%;
+}
+
+#svg img{
+  padding-left: 30px;
+}
+
+#svg:hover img{
+  opacity: 0.3;
+}
+
+#svg:hover #Institutionen {
+  opacity: 1;
+}
+
+#Institutionen a li{
+  padding-left: 30px;
+  width: 100%;
+  text-align: center;
+  display: table-cell;
+  color: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#Institutionen a:hover li{
+  color: white;
+}
+
+#Welle1 svg  {
+  width: 100%;
+  height: 50px;
+}
+
+path {
+  stroke: yellow;
+  stroke-width: 5px;
+  stroke-linecap: round;
+  fill: none;
+  }
+
+form{ 
+  width: 100%; 
+  margin:50px auto; 
+}
+
+.fcf-form-control {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #e100ff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.fcf-form-control:focus { 
+  border:2px solid #e100ff; 
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#e100ff;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#a200b8; }
+
+#Welle2 svg{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+polyline {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 5.8px;
+}
+
+#footer {
+  background-color: black;
+  text-align: center;
+  color: gray;
+}
+
+#innerfooter{
+  font-size: 7.9pt;
+  max-width: 900px;
+  margin: auto;
+  text-align:justify;
+  color: gray;
+  background-color: black;
+}
+
+
+#innerfooter2{
+  font-size: 10pt;
+  padding-top: 165px;
+  text-align: center;
+}
