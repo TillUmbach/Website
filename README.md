@@ -6,8 +6,10 @@
   ---
 -----------------------------------------
 
-Please do not just copy it. 
-Use it instead as inspiration, or as the basis of your own project. \
+Please do not just copy it. \
+Use it instead as inspiration, or as the basis of your own project. 
+
+You can check the code here: https://htmlpreview.github.io/?https://github.com/TillUmbach/Website/blob/main/index.php \
 For the animated SVG-Waves check:https://library.superhi.com/posts/how-to-draw-and-animate-an-svg-wave-using-javascript \
 For the animated score I used: https://maxwellito.github.io/vivus-instant/ 
 
