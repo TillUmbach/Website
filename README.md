@@ -1,7 +1,9 @@
 
 -----------------------------------------
-  This is my Website.                    
+  This is my Website.
+  ---
   You can find it under till-umbach.com  
+  ---
 -----------------------------------------
 
 Please do not just copy it. 
@@ -11,7 +13,7 @@ For the animated score I used: https://maxwellito.github.io/vivus-instant/
 
 Feel free to comment if you have suggestions how to improve the site. 
 
-Thank you!
+Thank you! \
 Till Jonas Umbach
 
 
